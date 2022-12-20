@@ -221,7 +221,6 @@ console.log('23' * '2'); // '23' * '2' or '23' / '2'
 let n = '1' + 1; // '11'
 n = n -1; // 11-1=10
 console.log(n);
-*/
 
 // 5 falsy values: 0, '' (empty string), undefined, null, NaN
 
@@ -244,4 +243,30 @@ if(height) {
 }else{
     console.log('Height is UNDEFINED');
 }
+*/
 
+const age = 18;
+if (age === 18) console.log('You just became an adult :D (strict)'); 
+   // === strict equality operator, only returns true with both values are the exact same
+   // == loose eqaulity operator, (works with coercion)
+   // '18' == 18 is true
+   // '18' === 18 is false (===) doens't work with coercion
+if(age == 18) console.log('You just became an adult :D (loose)');
+
+const favourite = Number(prompt("What's your favorite number?"));
+console.log(favourite);
+console.log(typeof favourite);
+
+if(favourite === 23) { // 23 === 23 
+    console.log('Cool! 23 is an amazing number!');
+}else if(favourite === 21) {
+    console.log('21 is also a cool number');
+}else if(favourite === 15) {
+    console.log('15 is a fun number');
+}else if(favourite === 7) {
+    console.log('7 is a lucky number');
+}else{
+    console.log('Oh.. I guess that one is an alright number..');
+}
+
+if (favourite !== 23) console.log('Why not 23?'); 
