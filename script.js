@@ -186,7 +186,6 @@ is either "Mark's BMI is higher than John's!" or "John's BMI is higher than Mark
 BMI (28.3) is higher than John's (23.9)!"
 
 (Answer):
-*/
 
 const massMark = 78;
 const heightMark = 1.69;
@@ -202,3 +201,25 @@ if(BMIMark > BMIJohn) {
 }else {
     console.log(`Johns's BMI (${BMIJohn}) is higher than Mark's(${BMIMark})!`);
 }
+
+
+// type conversion 
+const inputYear = '1991';
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 18);
+
+console.log(Number('Jonas')); //Nan in the console (Not a Number)
+console.log(typeof NaN);
+
+console.log(String(23), 23);
+
+//type coercion
+console.log('I am ' + 23 + ' years old'); //Auto converts without ''
+console.log('23' - '10' - 3); // only converts with - not +
+console.log('23' * '2'); // '23' * '2' or '23' / '2'
+
+let n = '1' + 1; // '11'
+n = n -1; // 11-1=10
+console.log(n);
+*/
+
