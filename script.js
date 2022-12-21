@@ -351,8 +351,8 @@ if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
 } else{
     console.log('No one wins the trophy.. :(');
 }
-*/
 
+// The switch Statment
 const day = 'monday';
 
 switch(day) {
@@ -393,3 +393,18 @@ if (day === 'monday') {
 } else {
     console.log('Not a valid day!');  
 }
+*/
+//Statements and Expressions
+
+ 3 + 4
+ 1991
+ true && false && !false
+
+ if (23>10) {
+    const str = '23 is bigger'; // '23 is bigger' is a string
+ } // const str = '23 is bigger'; is an expression
+   // template literals only work with expressions and not statements
+ console.log(`I'm ${2037 - 1991} years old ${if (23>10) {
+    const str = '23 is bigger';
+} 
+ }`)
